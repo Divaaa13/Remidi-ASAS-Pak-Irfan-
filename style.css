@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#0f766e;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#134e4a;
+    display:flex;
+    justify-content:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#14b8a6;
+    border-radius:5px;
+}
+
+main{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+}
+
+.banner{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1,h2{
+    margin-bottom:15px;
+}
+
+p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#134e4a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+
+#profil{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.profil-img{
+    width:250px;
+    border-radius:10px;
+}
+
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.gallery-item{
+    width:250px;
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img{
+    width:100%;
+    border-radius:10px;
+}
+
+.caption{
+    text-align:center;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+
+
+.article-img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+
+.kontak{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.kontak img{
+    width:300px;
+    border-radius:10px;
+}
+
+.info{
+    font-size:18px;
+}
+
+.info a{
+    color:#0f766e;
+    text-decoration:none;
+}
+
+.info a:hover{
+    text-decoration:underline;
+}
